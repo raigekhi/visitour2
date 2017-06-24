@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "367628809018",
+    "firebase_url": "https://visitour-2a6d8.firebaseio.com",
+    "project_id": "visitour-2a6d8",
+    "storage_bucket": "visitour-2a6d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367628809018:android:a509462dbfb12796",
+        "android_client_info": {
+          "package_name": "com.sinto.sinto.visitour2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367628809018-3u2pomvdvl5nj0an8cjqtsvcvl88mi86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinto.sinto.visitour2",
+            "certificate_hash": "8545ca854262a1dea936ee4d57132daba888fe9a"
+          }
+        },
+        {
+          "client_id": "367628809018-41h73kkhln20msa89gv0a0qjb82j3reh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_9yT-hUhokz7uGVDs0oy6KOIFSdnCsZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367628809018-41h73kkhln20msa89gv0a0qjb82j3reh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
