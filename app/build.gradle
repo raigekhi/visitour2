@@ -39,8 +39,10 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:10.2.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+    compile 'com.google.android.gms:play-services-maps:10.2.1'
     testCompile 'junit:junit:4.12'
 }
+
 
 
 apply plugin: 'com.google.gms.google-services'

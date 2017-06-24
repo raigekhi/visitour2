@@ -13,4 +13,13 @@ tools:context="com.sinto.sinto.visitour2.TabActivity$PlaceholderFragment">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/section_label"
+        android:layout_toRightOf="@+id/section_label"
+        android:text="Maps Please" />
+
 </RelativeLayout>
