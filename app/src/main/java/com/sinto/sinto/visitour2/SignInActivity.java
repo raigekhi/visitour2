@@ -55,11 +55,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                 .build();
 
         FirebaseUser user = mFirebaseAuth.getCurrentUser();
-        if (user == null) {
-            // Not signed in, launch the Sign In activity
-            startActivity(new Intent(this, SignInActivity.class));
-            return;
-        } else {
+        if (user != null) {
             startActivity(new Intent(this, TabActivity.class));
             finish();
         }

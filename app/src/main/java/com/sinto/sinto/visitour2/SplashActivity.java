@@ -21,12 +21,12 @@ public class SplashActivity extends AwesomeSplash {
 
         //Background Animation
         configSplash.setBackgroundColor(R.color.bg_color);
-        configSplash.setAnimCircularRevealDuration(3000);
+        configSplash.setAnimCircularRevealDuration(1000);
         configSplash.setRevealFlagX(Flags.WITH_LOGO);
 
         //Logo
         configSplash.setLogoSplash(R.drawable.loogo);
-        configSplash.setAnimLogoSplashDuration(5000);
+        configSplash.setAnimLogoSplashDuration(2000);
         configSplash.setAnimLogoSplashTechnique(Techniques.Flash);
 
 
