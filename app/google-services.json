@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "367628809018-crkfl881u277voulqchvn61i28t5hba3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinto.sinto.visitour2",
+            "certificate_hash": "8dfe3e45982af7cdc3c2ff7a3276d847456c1d84"
+          }
+        },
+        {
           "client_id": "367628809018-3u2pomvdvl5nj0an8cjqtsvcvl88mi86.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
