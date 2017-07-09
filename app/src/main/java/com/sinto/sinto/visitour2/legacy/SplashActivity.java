@@ -1,10 +1,11 @@
-package com.sinto.sinto.visitour2;
+package com.sinto.sinto.visitour2.legacy;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.view.WindowManager;
 
 import com.daimajia.androidanimations.library.Techniques;
+import com.sinto.sinto.visitour2.R;
 import com.viksaa.sssplash.lib.activity.AwesomeSplash;
 import com.viksaa.sssplash.lib.cnst.Flags;
 import com.viksaa.sssplash.lib.model.ConfigSplash;

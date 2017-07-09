@@ -1,4 +1,4 @@
-package com.sinto.sinto.visitour2.tabs;
+package com.sinto.sinto.visitour2.legacy.tabs;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;

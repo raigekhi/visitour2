@@ -1,4 +1,4 @@
-package com.sinto.sinto.visitour2.tabs;
+package com.sinto.sinto.visitour2.legacy.tabs;
 
 import android.content.Intent;
 import android.support.v4.app.Fragment;
@@ -8,9 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.sinto.sinto.visitour2.MapsActivity;
+import com.sinto.sinto.visitour2.legacy.MapsActivity;
 import com.sinto.sinto.visitour2.R;
-import com.sinto.sinto.visitour2.TabActivity;
 
 /**
  * Created by Arvin on 6/25/2017.

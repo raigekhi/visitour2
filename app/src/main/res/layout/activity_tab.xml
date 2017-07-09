@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.sinto.sinto.visitour2.TabActivity">
+    tools:context="com.sinto.sinto.visitour2.legacy.TabActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"

@@ -1,4 +1,4 @@
-package com.sinto.sinto.visitour2;
+package com.sinto.sinto.visitour2.legacy;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -17,9 +17,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sinto.sinto.visitour2.tabs.Calendar;
-import com.sinto.sinto.visitour2.tabs.Groups;
-import com.sinto.sinto.visitour2.tabs.Profile;
+import com.sinto.sinto.visitour2.R;
+import com.sinto.sinto.visitour2.legacy.tabs.Calendar;
+import com.sinto.sinto.visitour2.legacy.tabs.Groups;
+import com.sinto.sinto.visitour2.legacy.tabs.Profile;
 
 public class TabActivity extends AppCompatActivity {
 

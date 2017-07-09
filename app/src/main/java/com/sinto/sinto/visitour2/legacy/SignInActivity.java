@@ -1,4 +1,4 @@
-package com.sinto.sinto.visitour2;
+package com.sinto.sinto.visitour2.legacy;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -22,6 +22,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.sinto.sinto.visitour2.R;
 
 public class SignInActivity extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
 
