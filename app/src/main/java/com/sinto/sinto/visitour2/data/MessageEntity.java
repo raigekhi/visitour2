@@ -10,6 +10,6 @@ public class MessageEntity {
     public String messageId;
     public String senderId;
     public String text;
-    public Uri imageUrl;
+    public Uri photoUrl;
     public long timestamp;
 }

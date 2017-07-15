@@ -14,4 +14,14 @@ public class UserEntity {
     public String displayName;
     public Uri photoUrl;
     public LatLng latLng;
+
+    public UserEntity(String id, String email, String displayName) {
+        this.userId = id;
+        this.email = email;
+        this.displayName = displayName;
+    }
+
+    public UserEntity() {
+
+    }
 }

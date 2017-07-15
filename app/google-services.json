@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "367628809018-5qeksrlc27l2n89qjr2hlpgi3hs0qeaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinto.sinto.visitour2",
+            "certificate_hash": "fd00079dcba3099b7e7077a2526d7be6f076a347"
+          }
+        },
+        {
           "client_id": "367628809018-crkfl881u277voulqchvn61i28t5hba3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -33,6 +41,14 @@
         {
           "client_id": "367628809018-41h73kkhln20msa89gv0a0qjb82j3reh.apps.googleusercontent.com",
           "client_type": 3
+        },
+        {
+          "client_id": "367628809018-hipp7buk3b4tatmadt7i8tin2iv9t7up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinto.sinto.visitour2",
+            "certificate_hash": "8da1ac6e0073e8ad7ffc7f1117cfb56cacf86c88"
+          }
         }
       ],
       "api_key": [
