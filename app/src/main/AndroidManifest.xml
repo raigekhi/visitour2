@@ -27,6 +27,10 @@
             android:name=".home.HomeActivity"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".chat.ChatActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity android:name=".legacy.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

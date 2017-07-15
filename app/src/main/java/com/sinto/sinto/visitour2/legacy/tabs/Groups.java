@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.sinto.sinto.visitour2.chat.ChatActivity;
 import com.sinto.sinto.visitour2.legacy.MapsActivity;
 import com.sinto.sinto.visitour2.R;
 
@@ -29,6 +30,14 @@ public class Groups extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), MapsActivity.class));
+            }
+        });
+
+        Button chatButton = (Button) rootView.findViewById(R.id.chat_button);
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), ChatActivity.class));
             }
         });
 

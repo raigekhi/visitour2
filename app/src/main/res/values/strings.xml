@@ -26,6 +26,7 @@
     <string name="jmarcz">\@jmarcz</string>
     <string name="profile_picture">Profile picture</string>
     <string name="_20">20</string>
+
     <string name="title_activity_chat">ChatActivity</string>
     <string name="title_activity_maps">Map</string>
 </resources>

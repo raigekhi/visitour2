@@ -1,5 +1,7 @@
 package com.sinto.sinto.visitour2.chat;
 
+import android.os.Bundle;
+
 import com.google.firebase.database.FirebaseDatabase;
 
 import javax.inject.Inject;
@@ -13,6 +15,10 @@ public class ChatActivityPresenter {
 
     @Inject
     public ChatActivityPresenter(FirebaseDatabase firebaseDatabase) {
+
+    }
+
+    public void onCreate(Bundle savedInstanceState) {
 
     }
 }
