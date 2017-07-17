@@ -11,6 +11,7 @@ import android.widget.Button;
 import com.sinto.sinto.visitour2.chat.ChatActivity;
 import com.sinto.sinto.visitour2.legacy.MapsActivity;
 import com.sinto.sinto.visitour2.R;
+import com.sinto.sinto.visitour2.webview.WebViewActivity;
 
 /**
  * Created by Arvin on 6/25/2017.
@@ -38,6 +39,14 @@ public class Groups extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), ChatActivity.class));
+            }
+        });
+
+        Button adminButton = (Button) rootView.findViewById(R.id.admin_button);
+        adminButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), WebViewActivity.class));
             }
         });
 

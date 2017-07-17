@@ -17,19 +17,39 @@ tools:context="com.sinto.sinto.visitour2.legacy.TabActivity$PlaceholderFragment"
         android:id="@+id/map_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/section_label"
+        android:text="Debug Map View"
+        android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/section_label"
-        android:text="Maps Please" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/chat_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Debug Chat View"
         android:layout_below="@+id/map_button"
-        android:layout_marginTop="13dp"
-        android:layout_toEndOf="@+id/section_label"
         android:layout_toRightOf="@+id/section_label"
-        android:text="Chat Please" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/admin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/chat_button"
+        android:text="Debug Backend Database"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a work in progress."
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

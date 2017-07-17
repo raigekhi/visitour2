@@ -45,7 +45,7 @@ public class ChatActivityPresenter {
 
     public void sendMessage(String text) {
         MessageEntity message = new MessageEntity();
-        message.senderId = firebaseUser.getUid();
+        message.senderId = firebaseUser.getEmail();
 //        message.photoUrl = firebaseUser.getPhotoUrl();
         message.text = text;
         message.timestamp = new Date().getTime();

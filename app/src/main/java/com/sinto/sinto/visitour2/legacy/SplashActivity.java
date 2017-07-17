@@ -22,12 +22,12 @@ public class SplashActivity extends AwesomeSplash {
 
         //Background Animation
         configSplash.setBackgroundColor(R.color.bg_color);
-        configSplash.setAnimCircularRevealDuration(1000);
+        configSplash.setAnimCircularRevealDuration(100);
         configSplash.setRevealFlagX(Flags.WITH_LOGO);
 
         //Logo
         configSplash.setLogoSplash(R.drawable.loogo);
-        configSplash.setAnimLogoSplashDuration(2000);
+        configSplash.setAnimLogoSplashDuration(200);
         configSplash.setAnimLogoSplashTechnique(Techniques.Flash);
 
 
@@ -40,5 +40,6 @@ public class SplashActivity extends AwesomeSplash {
     @Override
     public void animationsFinished() {
         startActivity(new Intent(SplashActivity.this,SignInActivity.class));
+        finish();
     }
 }
